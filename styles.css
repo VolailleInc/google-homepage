@@ -65,16 +65,17 @@ section {
 #search-box {
   display: flex;
   flex-direction: column;
-  width: 410px;
-  height: 44x;
+  width: 600px;
+  height: auto;
   box-sizing: border-box;
   border: 1px solid #dfe1e5;
   border-radius: 22px;
   flex: 1;
-  padding: 5px 8px 0 14px;
+  padding: 10px 10px 10px 14px;
   background: #fff;
   margin: 0 auto;
   z-index: 3;
+  font-size: 17px;
 }
 
 #search-box:hover {
