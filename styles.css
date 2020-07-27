@@ -65,10 +65,10 @@ section {
 #search-box {
   display: flex;
   flex-direction: column;
-  width: 600px;
-  height: auto;
+  width: 410px;
+  height: 70px;
   box-sizing: border-box;
-  border: 1px solid #dfe1e5;
+  border: 1px solid #eaeef5;
   border-radius: 22px;
   flex: 1;
   padding: 10px 10px 10px 14px;
@@ -79,7 +79,7 @@ section {
 }
 
 #search-box:hover {
-  box-shadow: 0 1px 6px 0 rgb(32, 33, 36, 0.28);
+  box-shadow: 0 1px 6px 0 rgba(99, 101, 109, 0.23);
   border-color: rgba(244, 245, 248, 0.952);
 }
 
